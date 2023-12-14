@@ -1,0 +1,36 @@
+source,target,user
+1. login,2. end_game_clear,996
+1. login,2. end_game_fail,886
+1. login,2. end_game_surrender,793
+2. end_game_fail,3. Shop,745
+2. end_game_surrender,3. Shop,166
+2. end_game_clear,3. Shop,898
+2. end_game_surrender,5. spend_resource,1
+2. end_game_clear,5. spend_resource,3
+3. Shop,4. Equip,1785
+4. Equip,5. spend_resource,119
+4. Equip,5. start_2nd_game,1379
+5. start_2nd_game,6. spend_resource,171
+5. spend_resource,6. start_2nd_game,112
+5. spend_resource,Churn,5
+2. end_game_surrender,Churn,556
+2. end_game_clear,Churn,16
+3. Shop,Churn,12
+5. spend_resource,Churn,2
+5. start_2nd_game,Churn,553
+2. end_game_fail,Churn,79
+4. Equip,Churn,163
+1. login,Churn,380
+6. start_2nd_game,Churn,44
+6. spend_resource,Churn,53
+2. end_game_clear,Not churn,79
+6. spend_resource,Not churn,118
+4. Equip,Not churn,124
+3. Shop,Not churn,12
+5. start_2nd_game,Not churn,655
+1. login,Not churn,497
+2. end_game_surrender,Not churn,70
+5. spend_resource,Not churn,2
+6. start_2nd_game,Not churn,68
+2. end_game_fail,Not churn,62
+5. spend_resource,Not churn,2
